@@ -1,0 +1,32 @@
+{
+  "name": "jsonify_js_objects",
+  "version": "0.0.0",
+  "description": "For testing jsonifying of js objects, as well as expanding their properties",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keith471/tests.git"
+  },
+  "author": "Keith Strickling <keithstrickling@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keith471/tests/issues"
+  },
+  "homepage": "https://github.com/keith471/tests#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "knex": "^0.11.5",
+    "mysql": "^2.10.2",
+    "q": "^1.4.1"
+  }
+}
